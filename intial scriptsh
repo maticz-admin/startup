@@ -58,7 +58,7 @@ sudo dpkg -i GitHubDesktop-linux-2.9.3-linux3.deb
 # skype 
 sudo apt-get install libatomic1 -y
 sudo wget -O skype.deb https://repo.skype.com/latest/skypeforlinux-64.deb
-sudo dkg -i skype.deb
+sudo dpkg -i skype.deb
 # vokoscreen
 sudo apt install vokoscreen -y
 
