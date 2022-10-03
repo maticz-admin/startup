@@ -19,7 +19,8 @@ curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 sudo apt-get install -y nodejs
 #yarn
 sudo apt-get install yarn -y
-# pm2 insa
+# pm2 installation
+sudo npm i pm2 -g
 
 
 # postman
