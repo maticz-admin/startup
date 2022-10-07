@@ -65,5 +65,8 @@ sudo apt install vokoscreen -y
 # zip & unzip package
 sudo apt-get install zip unzip -y
 
+# filezilla
+sudo apt-get install filezilla -y
+
 
 
