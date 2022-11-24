@@ -13,14 +13,12 @@ sudo apt install mongodb-org -y
 sudo systemctl start mongod
 sudo systemctl enable mongod
 
-# install node
+# install node via nvm
 sudo apt-get install curl -y
-curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
-sudo apt-get install -y nodejs
-#yarn
-sudo apt-get install yarn -y
-# pm2 installation
-sudo npm i pm2 -g
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+source ~/.bashrc
+nvm install v14.19.2
+npm i pm2 -g
 
 
 # postman
@@ -67,6 +65,9 @@ sudo apt-get install zip unzip -y
 
 # filezilla
 sudo apt-get install filezilla -y
+
+# ssh 
+sudo apt-get install openssh-server
 
 
 
