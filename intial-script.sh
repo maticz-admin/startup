@@ -69,5 +69,8 @@ sudo apt-get install filezilla -y
 # ssh 
 sudo apt-get install openssh-server
 
+# htop
+sudo apt-get install htop
+
 
 
